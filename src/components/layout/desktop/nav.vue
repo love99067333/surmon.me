@@ -37,7 +37,7 @@
         </ulink>
       </template>
       <!-- AD -->
-      <template v-for="(ad, index) in adConfig.PC_NAV" :key="index">
+      <!-- <template v-for="(ad, index) in adConfig.PC_NAV" :key="index">
         <span class="divider"></span>
         <ulink class="item" :href="ad.url">
           <i class="iconfont" :class="ad.icon" :style="{ color: ad.color }"></i>
@@ -53,7 +53,7 @@
             <i class="iconfont icon-ad"></i>
           </span>
         </ulink>
-      </template>
+      </template> -->
     </nav>
   </div>
 </template>

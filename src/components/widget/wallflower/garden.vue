@@ -17,18 +17,12 @@
   import Flower from './flower.vue'
 
   const FLOWERS = [
-    '富强',
-    '民主',
-    '文明',
-    '和谐',
-    '自由',
-    '平等',
-    '公正',
-    '法治',
-    '爱国',
-    '敬业',
-    '诚信',
-    '友善'
+    '自律',
+    '自立',
+    '自強',
+    '尊重',
+    '包容',
+    '友善',
   ]
 
   export interface IFlower {
@@ -85,6 +79,7 @@
   @import 'src/styles/init.scss';
 
   #wallflower {
+    font-family: '微軟正黑體';
     position: fixed;
     width: 100%;
     height: 100%;
@@ -95,6 +90,7 @@
     z-index: $z-index-underground;
 
     .garden-box {
+      font-family: '微軟正黑體';
       width: 100%;
       height: 100%;
     }

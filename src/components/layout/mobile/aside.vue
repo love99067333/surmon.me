@@ -25,7 +25,7 @@
           <i class="iconfont icon-home-fill"></i>
           <i18n :lkey="LANGUAGE_KEYS.PAGE_HOME" />
         </router-link>
-        <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Code)">
+        <!-- <router-link class="item" :to="getCategoryFlowRoute(CategorySlug.Code)">
           <i class="iconfont icon-code"></i>
           <i18n :lkey="LANGUAGE_KEYS.CATEGORY_CODE" />
         </router-link>
@@ -55,7 +55,7 @@
         <router-link class="item app" :to="getPageRoute(RouteName.App)">
           <i class="iconfont icon-app"></i>
           <i18n :lkey="LANGUAGE_KEYS.PAGE_APP" />
-        </router-link>
+        </router-link> -->
       </nav>
     </div>
   </aside>

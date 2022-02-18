@@ -96,6 +96,6 @@ export const VALUABLE_LINKS = Object.freeze({
   STACK_OVERFLOW: 'https://stackoverflow.com/users/6222535/surmon?tab=profile',
   LEETCODE_CN: 'https://leetcode-cn.com/u/surmon',
   LINKEDIN: 'https://www.linkedin.com/in/surmon',
-  INSTAGRAM: 'https://www.instagram.com/surmon666',
+  INSTAGRAM: 'https://www.instagram.com/wu_ryan_tw/',
   TWITTER: `https://twitter.com/${THIRD_IDS.TWITTER_USER_ID}`
 })
